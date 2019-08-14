@@ -937,10 +937,6 @@ div.toolbar-bottom .limiter {
 .product-view .product-img-box {
 	margin-top: 10px;
 }
-.product-view .product-img-box a:link, .product-view .product-img-box a:visited, .product-view .product-img-box a:hover {
-	opacity: 1;
-	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
-}
 .product-view .product-img-box .product-image {
 	margin-bottom: 5px;
 }
@@ -1162,12 +1158,9 @@ div.toolbar-bottom .limiter {
 .crosssell-div {
 	clear: both;
 }
-.product-view .product-shop .add-to-links li {
+.product-view .product-shop .add-to-links li, .product-view .product-shop .add-to-links li .separator {
     display: block;
 }
-.product-view .product-shop .add-to-links li .separator {
- 	display: none;
- }
 /***********************************************************CHECKOUT, ACCOUNT********************************/
 .opc .step-title h2 {
 	font:12px Arial, Helvetica, sans-serif;
