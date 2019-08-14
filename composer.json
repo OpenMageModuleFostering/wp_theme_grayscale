@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/wp_theme_grayscale",
+    "type": "magento-module",
+    "license": "Creative-Commons-Attribution-3.0-Unported-License",
+    "homepage": "",
+    "description": "Theme Grayscale (WebAndPeople.com) for magento v1.4-1.5-1.6",
+    "authors": [
+    {
+        "name": "WebAndPeople",
+        "email": "design@webandpeople.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
